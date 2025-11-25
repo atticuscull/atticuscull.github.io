@@ -1,0 +1,91 @@
+:root {
+    --top-height: 0em;
+    --line-color: navy;
+}
+body {
+    background-color: lightblue;
+    max-height: 100%;
+}
+
+#heading {
+    position:absolute;
+    height: var(--top-height);
+    top: 0;
+    width: 100%;
+    /* background-color: red; */
+    margin: auto;
+    left:0;
+}
+
+.vl {
+    border-left: 4px solid var(--line-color);
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    top: var(--top-height);
+    bottom:100%;
+}
+
+.row {
+    top: var(--top-height);
+    max-height: 100%;
+    /* background-color: green; */
+}
+
+.hl {
+    border-top: 4px solid var(--line-color);
+    width: 100%;
+    position: absolute;
+    top: var(--top-height);
+    margin-top: -2px;
+    left: 0;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    top: var(--top-height);
+}
+
+.padded-container {
+    margin: 2em
+}
+
+#left-half {
+    /* background-color: lightblue; */
+    position: absolute;
+    left: 0%;
+    
+}
+#right-half {
+    position: absolute;
+    left: 50%;
+    /* background-color: green; */
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    /* background-color: yellow;  */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#defaultCanvas0 {
+    margin: 1em;
+    padding: 0;
+}
+
+button {
+    background-color: #bfd8ff;
+    border-color: var(--line-color);
+}
+button:hover {
+    background-color: #9fbfff;
+}
