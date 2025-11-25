@@ -75,7 +75,7 @@ body {
     align-self: center;
     /* background-color: yellow;  */
     position: absolute;
-    bottom: 0;
+    bottom: 3em;
     padding: 0;
     margin: 0;
 }
@@ -83,6 +83,12 @@ body {
 #defaultCanvas0 {
     margin: 1em;
     padding: 0;
+}
+
+#citation {
+    position: absolute;
+    bottom: 0;
+    align-self: center;
 }
 
 button {
