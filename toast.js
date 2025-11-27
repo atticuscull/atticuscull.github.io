@@ -117,6 +117,7 @@ function setup() {
 }
 
 function drawNewToast() {
+    deepestLevel = 0;
     var root = new ToastBox(0, 0, gridWidth, gridHeight);
     root.generate();
 
